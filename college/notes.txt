@@ -1,0 +1,24 @@
+fcfs/fifo scheduling algo
+simplest
+
+when a process enters ready queue, its PCB(process controlled block) will be
+linked to the tail of the queue
+
+when the CPU is free, it is allocated to the process at the head of the queue, 
+the running process is then removed from the queue
+
+waiting time is very long, as each process has to wait in the queue for v. long
+also, since the burst time may differ and the process order is changed, the avg 
+waiting time varies alot.
+
+FCFS scheduling algorithm is nonpreemptive(CPU has to complete the process in
+present before jumping off to the next process)
+
+FCFS cannot take part in time-sharing systems because its nonpreemptive
+
+Convoy effect is when processes with higher burst times arrive before
+processes with lower burst time due to which avg burst time increases
+
+turnaround time = completion time - arrival time
+waiting time = turnaround time - burst time
+

@@ -1,0 +1,43 @@
+mkdir- making a new directory
+ll- listing 
+cd- change directory
+nano ---.txt etc are for opening editor
+ls- listing inside a directory
+pwd- shows the path
+cat- technically concatenate, but used to view content of the file
+clear- clears the entire screen
+ctrl+L only scrolls down so that the screen appears clear
+../ - used to exit out of the directory
+cd- - shuffle between last 2 directories
+cd.. - go to starting space
+sudo su- go to root
+rm- delete file
+rmdir- remove directory
+touch- creats new file
+cat > filename - creates and opens file to write into (ctrl+D to exit)
+vi- for vi editor- dont like ew
+less filename- to show the file content in a different screen (q to exit)
+| (pipeline) used for running multiple commands  together
+cat filename | sort | uniq - will first sort then find the unique vals
+rm -r directory name- remove a non-empty directory
+chmod 777 filename- read write execute
+chmod 111 filename- only execute
+chmod 221 filename- write write execute
+chmod 000 filename- no permission
+0: ---
+1: --x
+2: -w-
+3: -wx
+4: r--
+5: r-x
+6: rw-
+7: rwx
+
+cp: copying... cp srcfile destfile
+mv: moving... mv tomove whereto
+grep: fetches all the mentions Eg. cat commands.txt | grep chmod will
+fetch all the lines with chmod in them 
+find: to find files of a specific type
+expr: to compute mathematical expressions
+stat: to see status of files like time etc
+touch -commands to change the stat types
