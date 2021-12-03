@@ -10,7 +10,7 @@ struct node{
         right=NULL;
     }
 };
-node* insert(node *root, int key)
+node* insert(node *root, int key)// iterative insert is better as it doesnt require extra space or recursive overheads
 {
     node* newnode= new node(key);
     node* x= root;
